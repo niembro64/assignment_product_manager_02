@@ -41,14 +41,14 @@ const Edit = (props) => {
     <>
       <div className="box">
         <Link to={"/"}>
-          <button className="btn btn-secondary btn-sm">Back</button>
+          <button className="btn btn-secondary mx-4">Back</button>
         </Link>
         <Link to={`/`}>
           <button
             onClick={() => {
               onDeleteHandler(one._id);
             }}
-            className="btn btn-danger btn-sm"
+            className="btn btn-danger mx-4"
           >
             delete
           </button>
