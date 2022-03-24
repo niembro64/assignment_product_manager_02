@@ -43,6 +43,7 @@ const Single = (props) => {
         <Link to={"/"}>
           <button className="btn btn-secondary mx-4">Back</button>
         </Link>
+        <h2>View</h2>
         <Link to={`/${one._id}/edit`}>
           <button className="btn btn-success mx-4">Edit</button>
         </Link>
